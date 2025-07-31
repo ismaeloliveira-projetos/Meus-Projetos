@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Consulta de CEP com Número Editável</title>
+</head>
+<body>
+  <h1>Consulta de Endereço por CEP</h1>
+
+  <label for="cep">CEP:</label>
+  <input type="text" id="cep" maxlength="8" placeholder="Digite o CEP" />
+  <button onclick="buscarEndereco()">Buscar</button>
+
+  <p><strong>Logradouro:</strong> <input type="text" id="logradouro" /></p>
+  <p><strong>Bairro:</strong> <input type="text" id="bairro" /></p>
+  <p><strong>Cidade:</strong> <input type="text" id="cidade" /></p>
+  <p><strong>Estado:</strong> <input type="text" id="estado" /></p>
+  <p><strong>Número:</strong> <input type="text" id="numero" placeholder="Digite o número da casa" /></p>
+
+  <button onclick="salvarDados()">Salvar Dados</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
